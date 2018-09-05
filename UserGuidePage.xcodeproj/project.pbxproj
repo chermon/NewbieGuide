@@ -15,6 +15,7 @@
 		CF957318213687F50078EB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF957317213687F50078EB3A /* main.m */; };
 		CF957322213687F50078EB3A /* UserGuidePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF957321213687F50078EB3A /* UserGuidePageTests.m */; };
 		CF95732D213687F50078EB3A /* UserGuidePageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF95732C213687F50078EB3A /* UserGuidePageUITests.m */; };
+		CF95733C213688610078EB3A /* CMGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF95733B213688610078EB3A /* CMGuidePageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF957328213687F50078EB3A /* UserGuidePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserGuidePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF95732C213687F50078EB3A /* UserGuidePageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserGuidePageUITests.m; sourceTree = "<group>"; };
 		CF95732E213687F50078EB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF95733A213688610078EB3A /* CMGuidePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMGuidePageView.h; sourceTree = "<group>"; };
+		CF95733B213688610078EB3A /* CMGuidePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMGuidePageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CF957313213687F50078EB3A /* LaunchScreen.storyboard */,
 				CF957316213687F50078EB3A /* Info.plist */,
 				CF957317213687F50078EB3A /* main.m */,
+				CF95733A213688610078EB3A /* CMGuidePageView.h */,
+				CF95733B213688610078EB3A /* CMGuidePageView.m */,
 			);
 			path = UserGuidePage;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				CF95730D213687F50078EB3A /* ViewController.m in Sources */,
 				CF957318213687F50078EB3A /* main.m in Sources */,
+				CF95733C213688610078EB3A /* CMGuidePageView.m in Sources */,
 				CF95730A213687F50078EB3A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
